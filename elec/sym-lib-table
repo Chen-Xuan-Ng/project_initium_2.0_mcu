@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "initium20")(type "KiCad")(uri "${KIPRJMOD}/libraries/initium20.kicad_sym")(options "")(descr ""))
+)

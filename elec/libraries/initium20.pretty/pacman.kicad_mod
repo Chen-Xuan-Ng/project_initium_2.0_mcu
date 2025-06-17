@@ -1,0 +1,116 @@
+(footprint "pacman"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -12.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4f107986-bd8e-483c-b233-4bed9cd354c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "pacman"
+		(at 0 -11.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8ac17a24-a580-4d4b-b6e1-544d728d1de3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fa8df93-cf30-4610-adbb-bf571fd80026")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be853321-da35-49ec-9fe9-ed07360f2be4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 0)
+		(end 3.573012 4.108963)
+		(stroke
+			(width 3)
+			(type default)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "b6d841d2-b987-4e99-8bde-8e7dc1c079d3")
+	)
+	(fp_line
+		(start 3.8 -3.899999)
+		(end 0 0)
+		(stroke
+			(width 3)
+			(type default)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "d0e450a7-694c-498b-b316-840cedeb882d")
+	)
+	(fp_arc
+		(start 3.573013 4.108963)
+		(mid -5.442996 -0.154263)
+		(end 3.8 -3.9)
+		(stroke
+			(width 3)
+			(type solid)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "21987f6e-6fc1-4ad4-bcaf-859b945d5ab1")
+	)
+	(fp_poly
+		(pts
+			(xy 0 0) (xy 3.8 -3.9) (xy 3.1 -4.5) (xy 2.3 -4.9) (xy 1.6 -5.2) (xy 0.4 -5.4) (xy -1 -5.4) (xy -1.8 -5.1)
+			(xy -2.7 -4.7) (xy -3.6 -4.1) (xy -4.3 -3.4) (xy -5 -2.2) (xy -5.4 -0.8) (xy -5.4 0.6) (xy -5.2 1.7)
+			(xy -4.7 2.7) (xy -4.2 3.5) (xy -3.5 4.2) (xy -2.8 4.7) (xy -1.3 5.3) (xy 0 5.4) (xy 0.8 5.4) (xy 1.9 5.1)
+			(xy 2.6 4.8) (xy 3.3 4.3) (xy 3.6 4.1)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layers "F.Cu" "F.Mask")
+		(uuid "4edeee3a-2df6-4fc6-9f1b-be9b9e72bac6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -9.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b9466682-58a5-45a0-9439-e0cac0acc7c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
